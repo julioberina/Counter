@@ -1,0 +1,12 @@
+<ActionBar>
+    <Label text="Welcome to Sample App"></Label>
+</ActionBar>
+
+<StackLayout horizontalAlignment="center" verticalAlignment="center">
+    <!-- Add your page content here -->
+    <Label text="Random text on the screen" horizontalAlignment="center" verticalAlignment="center" fontSize="24"></Label>
+    <Label text="More text" horizontalAlignment="center" verticalAlignment="center" fontSize="18"></Label>
+    <Label text="Improve yourself" horizontalAlignment="center" verticalAlignment="center" fontSize="18"></Label>
+    <Label [text]="message" horizontalAlignment="center" verticalAlignment="center" fontSize="18"></Label>
+    <Button text="Click Me" class="-primary -rounded-sm" (tap)="clickMe()"></Button>
+</StackLayout>
